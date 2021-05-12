@@ -1,0 +1,262 @@
+    @media (min-width: 1440px) and (max-width: 1745px) {
+    .d-flex{
+        flex-wrap:nowrap;
+    }}
+    
+    @media (min-width: 1200px) and (max-width: 1439px) {
+    .d-flex{
+        flex-wrap:nowrap;
+    }}
+    
+    @media (min-width: 992px) and (max-width: 1199px) {
+    .d-flex{
+        flex-wrap:nowrap;
+    }
+
+     .wrapper section.bg-text-area .bg-text {
+        padding: 80px 190px;
+    }
+
+    .alert-success {
+        color: #3c763d;
+        background-color: #dff0d8;
+        border-color: #d6e9c6;
+    }
+
+
+    .alert {
+        padding: 15px;
+        margin-bottom: 20px;
+        border: 1px solid transparent;
+        border-radius: 4px;
+    }
+    }
+    
+    @media (min-width: 768px) and (max-width: 991px) {
+
+    .wrapper section.bg-text-area .bg-text {
+    padding: 60px 80px;
+    }
+
+    .header-order-1 {
+    order: 1;
+    }
+
+    .header-order-2 {
+    order: 3;
+    }
+
+    .header-order-3 {
+    order: 2;
+    }
+
+    .alert-success {
+        color: #3c763d;
+        background-color: #dff0d8;
+        border-color: #d6e9c6;
+    }
+
+
+    .alert {
+        padding: 15px;
+        margin-bottom: 20px;
+        border: 1px solid transparent;
+        border-radius: 4px;
+    }
+    }
+    
+    @media (min-width: 550px) and (max-width: 767px) {
+
+    .wrapper section.bg-text-area .bg-text h3 {
+        font-size: 40px;
+    }
+
+
+    section.blog-post-area .big-text {
+        float: right;
+        width: 100%;
+        padding-right: 10px;
+    }
+
+    section.blog-post-area .big-image {
+        float: left;
+        width: 100%;
+        padding-right: 10px;
+    }
+
+
+
+    .wrapper section.bg-text-area .bg-text {
+        padding: 20px 28px;
+    }
+
+    .header-order-1 {
+        order: 1;
+    }
+
+    .header-order-2 {
+        order: 3;
+    }
+
+    .header-order-3 {
+        order: 2;
+    }
+
+    .alert-success {
+        color: #3c763d;
+        background-color: #dff0d8;
+        border-color: #d6e9c6;
+    }
+
+
+    .alert {
+        padding: 15px;
+        margin-bottom: 20px;
+        border: 1px solid transparent;
+        border-radius: 4px;
+    }
+    }
+
+
+    @media only screen and (max-width: 549px) {
+
+    .wrapper section.bg-text-area .bg-text h3 {
+        font-size: 35px;
+    }
+
+    .wrapper section.bg-text-area .bg-text {
+        padding: 15px 22px;
+    }
+
+    section.blog-post-area .big-text {
+        float: right;
+        width: 100%;
+        padding-right: 7px;
+    }
+
+    section.blog-post-area .big-image {
+        float: left;
+        width: 100%;
+        padding-right: 7px;
+    }
+
+      .header-order-1 {
+        order: 1;
+    }
+
+    .header-order-2 {
+        order: 3;
+    }
+
+    .header-order-3 {
+        order: 2;
+    }
+
+    .alert-success {
+        color: #3c763d;
+        background-color: #dff0d8;
+        border-color: #d6e9c6;
+    }
+
+
+    .alert {
+        padding: 15px;
+        margin-bottom: 20px;
+        border: 1px solid transparent;
+        border-radius: 4px;
+    }
+
+    }
+
+    @media only screen and (max-width: 425px) {
+    .wrapper section.bg-text-area .bg-text h3 {
+        font-size: 30px;
+    }
+
+    .wrapper header.header .logo h2 {
+        margin: 0 0 0 10px;
+        padding: 0;
+    }
+
+    .wrapper section.bg-text-area .bg-text {
+        padding: 15px 22px;
+    }
+    section.blog-post-area .big-text {
+        float: right;
+        width: 100%;
+        padding-right: 7px;
+    }
+
+    section.blog-post-area .big-image {
+        float: left;
+        width: 100%;
+        padding-right: 7px;
+    }
+
+    .alert-success {
+        color: #3c763d;
+        background-color: #dff0d8;
+        border-color: #d6e9c6;
+    }
+
+
+    .alert {
+        padding: 15px;
+        margin-bottom: 20px;
+        border: 1px solid transparent;
+        border-radius: 4px;
+    }
+    }
+    
+    @media only screen and (max-width: 365px) {
+    .wrapper section.bg-text-area .bg-text h3 {
+        font-size: 28px;
+    }
+
+    .wrapper header.header .logo h2 {
+    margin: 0 0 0 10px;
+        padding: 0;
+    }
+
+    .wrapper section.bg-text-area .bg-text {
+        padding: 5px 11px;
+    }
+
+    section.blog-post-area .big-text {
+        float: right;
+        width: 100%;
+        padding-right: 5px;
+    }
+
+    section.blog-post-area .big-image {
+        float: left;
+        width: 100%;
+        padding-right: 5px;
+    }
+
+    .header-order-1 {
+        order: 1;
+    }
+
+    .header-order-2 {
+        order: 3;
+    }
+
+    .header-order-3 {
+        order: 2;
+    }
+
+    .alert-success {
+        color: #3c763d;
+        background-color: #dff0d8;
+        border-color: #d6e9c6;
+    }
+
+
+    .alert {
+        padding: 15px;
+        margin-bottom: 20px;
+        border: 1px solid transparent;
+        border-radius: 4px;
+    }
+    }

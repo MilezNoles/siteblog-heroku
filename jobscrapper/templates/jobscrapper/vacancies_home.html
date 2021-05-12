@@ -1,0 +1,40 @@
+{% extends "base_jobs.html" %}
+
+{% block title%} Vacancies {% endblock %}
+
+
+{% block content %}
+
+<h3 class="text-center my-5">Сервис по сбору и рассылке вакансий</h3>
+
+
+<div class="row">
+
+    <div class="col-md-8  mx-auto">
+        <h4>
+            <a data-bs-toggle="tooltip" title=""
+                                       data-bs-original-title="
+            Для того чтобы начать пользоваться данным сервисом
+            пройдите регистрацию и укажите в профиле желаемый город и
+            специальность.
+            Свежие вакансии будут добавлены автоматически">
+            Для просмотра доступных вакансий*
+            выберите город или/и специальность</a>
+        </h4>
+
+
+        <form method="get" action="{% url 'vacancy' %}">
+            <div class="form-group">
+                {{ form.as_p }}
+            </div>
+            <button type="submit" class="btn btn-primary">Поиск</button>
+        </form>
+    </div>
+</div>
+
+
+{% endblock %}
+
+
+
+

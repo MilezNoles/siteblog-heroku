@@ -1,0 +1,53 @@
+{% extends "base_jobs.html" %}
+
+{% block title%} Vacancies {% endblock %}
+
+
+{% block content %}
+
+
+<h3 class="text-center my-5">Результаты вашего запроса:</h3>
+{% for v in page_obj %}
+
+<div class="card my-2">
+    <h5 class="card-header"><a class="nav-link" href="{{v.url}}">{{ v }}</a></h5>
+    <div class="card-body">
+        <h5 class="card-title">{{ v.company }} | {{ v.salary }} </h5>
+        <p class="card-text">{{ v.description | truncatewords_html:150 | safe }}</p>
+        <p class="card-text">{{ v.city.name}} | {{ v.occupation.name}} |
+            <small>{{ v.timestamp | date:"d M Y"}}</small>
+        </p>
+
+    </div>
+</div>
+{% empty %}
+
+<h3 class="text-center my-5">По выбранным параметрам нет вакансий</h3>
+
+{% endfor %}
+
+<div class="row">
+    <div class="col">
+        {%include "inc/_pagination_vacancies.html"%}
+    </div>
+</div>
+
+<div class="row">
+
+    <div class="col-md-6  mx-auto my-auto">
+        <form action="">
+            <div class="form-group">
+                {{ form.as_p }}
+            </div>
+            <button type="submit" class="btn btn-primary">Поиск</button>
+        </form>
+    </div>
+</div>
+
+
+
+{% endblock %}
+
+
+
+
